@@ -1,0 +1,175 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: #2992de;
+}
+
+.header img{
+    width: 200px;
+    height: auto;
+}
+
+.header ul{
+    text-align: right;
+}
+.header ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    border-left: 1px solid #fff;
+    line-height: 47px;
+    margin-bottom: -32px;
+    transition: 0.4s;
+}
+
+.header ul li:last-child{
+    border-right: 1px solid #fff;
+    line-height: 64px;
+    margin-bottom: -32px;
+}
+.header ul li a:hover{
+    background-color: rgb(103, 103, 216);
+}
+
+
+.banner{
+    background: url("https://smartslider3.com/wp-content/uploads/slider/cache/156fadb65d5b54e3fa382bd681c83528/image-slider-with-thumbnail1.jpg") no-repeat ;
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner h2{
+    background-color: #999999;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.banner h1{
+    background-color: #7fbdea;
+    color: white;
+    width: 470px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+
+.about-us h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.about-us p {
+    max-width: 570px;
+    margin: auto;
+    font-size: 18px;
+}
+
+
+
+
+.service .card {
+    padding: 30px ;
+}
+
+.service-item span{
+    display: block;
+    background-color: #2992de;
+    padding: 5px 10px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    font-size: 35px;
+    border-radius: 20px 0 20px;
+    color: white;
+    
+    
+}
+.service-item h3{
+    margin: 20px;
+    font-size: 30px;
+}
+.service-item p{}
+
+
+
+.content-section{
+    margin-top: 50px;
+}
+
+
+.left-content img{
+    width: 260px;
+    height: auto;
+}
+
+
+
+.right-content h3{
+    font: 34px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.right-content ul{
+
+}
+.right-content ul li {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #dded;
+    padding: 8px;
+    margin-bottom: 5px;
+    
+
+}
+
+
+
+.form input:last-child{
+    background-color: rgb(100, 100, 240);
+    color: white;
+    text-align: left;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.footer{
+    background-color: #1f2f41;
+    padding: 10px 0;
+    margin-bottom: -50px;
+    margin-left: -50px;
+    margin-right: -48px;
+}
+
+.footer p{
+    margin-bottom: 0;
+    margin-right: 540px;
+}
+}
+.footer ul{
+    text-align: right;
+    margin-left: 40px;
+}
+
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a{
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+    text-decoration: none;
+}
